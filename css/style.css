@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Montserrat, "Open Sans", sans-serif;
+}
+
+body {
+  background-color: silver;
+}
+
+#main_title {
+  color: black;
+  font-size: 45px;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0px;
+}
+
+#semi-bold {
+  font-weight: 500;
+}
+
+.resume {
+  width: 1345px;
+  height: auto;
+  display: inline-block;
+  height: fit-content;
+  margin: 300px auto 400px 700px;
+  max-height: fit-content; 
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 33px 75px rgba(0, 0, 0, 0.47);
+}
+
+.container {
+  position: absolute;
+  width: 530px; 
+  height: 70px; 
+  background-color: rgb(0, 180, 148); /* Solo para visualización */
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* La línea llega hasta la mitad de la anchura del contenedor */
+  height: 1px;
+  background-color: rgb(0, 180, 148); /* Color de la línea */
+}
+
+.container2 {
+  position: inherit;
+  width: 730px; 
+  height: 70px; 
+  background-color: rgb(0, 180, 148); /* Solo para visualización */
+}
+
+.line2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* La línea llega hasta la mitad de la anchura del contenedor */
+  height: 1px;
+  background-color: rgb(0, 180, 148); 
+}
+.container3 {
+  position: relative;
+  width: 50px; 
+  height: 800px; 
+  background-color: rgb(0, 180, 148);
+  float: right;
+}
+
+.line-side {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%; 
+  width: 4px;
+  background-color: rgb(0, 180, 148); 
+}
+
+.resume .title {
+  max-width: fit-content;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resume .title_bold {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 25px;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0px;
+}
+
+.resume .text{
+  font-size: 18px;
+  text-transform: initial;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.resume .color{
+  font-size: medium;
+  font-weight: 550;
+  color: rgb(0, 180, 148);
+  margin-bottom: 10px;
+}
+
+.resume .top .name {
+  background-color: rgba(0, 180, 148,0.1);
+  padding: 40px 0px 40px 50px;
+  margin: 170px 0px 100px;
+}
+
+.resume .top .name .name_text {
+  border-left: 3.5px solid rgb(0, 180, 148);
+  align-content: center;
+  padding-left: 35px;
+}
+
+.resume .top{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 400px;
+}
+
+.resume .top .profile_pic {
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 140px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+/* .resume .top .profile_pic .border {
+  width: 200px;
+  height: 150px;
+  align-items: center;
+} */
+
+.resume .top .profile_pic .border .box {
+  width: fit-content;
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 180, 148);
+}
+.resume .top .profile_pic .border .box img {
+  border-radius: 50%;
+}
+
+#top_line {
+  display: grid;
+  margin: 10px 100px;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 3.5px solid rgb(0, 180, 148);
+}
+
+.resume .left_top {
+  padding: 20px;
+}
+
+.resume .left_top .contact_profile {
+  border-left: 3.5px solid rgb(0, 180, 148);
+  align-content: center;
+  padding-left: 35px;
+}
+
+#title_align_left {
+  margin-left: 35px;
+  margin-bottom: 20px;
+
+}
+#title_align_right {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+.resume .right_top .profile_text {
+  margin: 20px;
+  border-left: 3.5px solid rgb(0, 180, 148);
+  align-content: center;
+  padding-left: 35px;
+
+}
+
+#bottom {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 890px;
+  margin: 10px 100px 50px;
+}
+
+
+.resume #bottom .right .bottom_right,
+.resume #bottom .left .bottom_left {
+  margin: 20px;
+  padding-left: 25px;
+  border-bottom: 3.5px solid rgb(0, 180, 148);
+}
+
+.resume #bottom .left .habilities,
+.resume #bottom .right .academic {
+  border: none;
+
+}
+
+.resume #bottom .left .idioms,
+.resume #bottom .left .habilities,
+.resume #bottom .left .rrss,
+.resume #bottom .right .academic,
+.resume #bottom .right .lab_ex {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+
+.resume .left .rrss ul li,
+.resume .left_top ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.resume .left .rrss ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .left .rrss ul li .icon,
+.resume .left_top ul li .icon{
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: rgb(0, 180, 148);
+  margin-right: 15px;
+  font-size: 30px;
+  position: relative;
+}
+
+/*Barras de porcentaje*/
+.resume .bottom .left .habilities .skill li {
+  flex-direction: column;
+}
+
+.resume .left .bottom_left .skill .skill_progress {
+  position: relative;
+  width: 300px;
+  background-color: rgba(71, 71, 71, 0.37);
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+.resume .left .habilities .skill .skill_progress div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  background-color: rgb(0, 180, 148);
+}
+
+
+
+/* bolita de color con linea*/
+.resume .bottom .bottom_right ul,
+.resume .bottom .bottom_left ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .bottom_left ul,
+.resume .bottom_right ul {
+  margin-bottom: 20px;
+}
+
+.resume .bottom_left ul li,
+.resume .bottom_right ul li {
+  position: relative;
+}
+
+.resume .bottom_right ul li .title_group {
+  font-size: 20px;
+}
+
+.resume .bottom_right ul li .text {
+  margin-bottom: 20px;
+}
+
+/*bolitas*/
+.resume .left .bottom_left ul li::before,
+.resume .right .lab_ex ul li:before,
+.resume .right .academic ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(0, 180, 148);
+  border: 2px solid rgb(0, 180, 148);
+}
+/*Lineas*/
+.resume .left .bottom_left ul li::after,
+.resume .right .lab_ex ul li:after,
+.resume .right .academic ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 150px;
+  background: rgb(0, 180, 148);
+}
